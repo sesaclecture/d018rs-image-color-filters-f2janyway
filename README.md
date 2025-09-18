@@ -13,15 +13,15 @@
 ```
 python3 -m venv .venv
 source .venv/bin/activate
-(.venv) pip install -r requirements.txt
-(.venv) cd src
-(.venv) python color_filter data/a.png
+pip install -r requirements.txt
+cd src
+python color_filter data/a.png
 ```
 
 ## Run Test
 ```
 python3 -m venv .venv
 source .venv/bin/activate
-(.venv) pip install -r requirements.txt
-(.venv) python -m pytest
+pip install -r requirements.txt
+python -m pytest
 ```
